@@ -8,7 +8,7 @@
 }
 
 .my-bg-img{
-    background-image: url(/Assets/pumpkin_lg.jpg);
+    background-image: url(./Assets/pumpkin_lg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 30rem;
