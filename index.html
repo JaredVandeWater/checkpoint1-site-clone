@@ -35,49 +35,81 @@
         <!-- First Row is a background image with 2 columns -->
         <div class="row my-bg-img">
             <!-- First col is a form -->
-            <div class="col-lg-5 col-md-6 pl-5 py-5 d-flex justify-position-center">
+            <div class="col-lg-5 col-md-6 pl-md-5 py-5 d-flex justify-position-center">
                 <form class="bg-white p-3 w-md-75 w-lg-50">
                     <h5 class="py-3">PUMPKIN FORM</h5>
 
 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Name">
+                        <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Name">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="EMAIL">
+                        <input type="text" class="form-control" placeholder="EMAIL">
                     </div>
                     <div class="form-group d-flex">
-                        <input type="text" class="form-control col-5" id="exampleInputPassword1" placeholder="PHONE">
-                        <input type="text" class="form-control col-4" id="exampleInputPassword1" placeholder="EXT.">
+                        <input type="text" class="form-control col-5" placeholder="PHONE">
+                        <div class="col-1"></div>
+                        <input type="text" class="form-control col-4" placeholder="EXT.">
                     </div>
 
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="MESSAGE">
+                    <div class="form-group ">
+                        <textarea class="form-control my-text-area" rows="4" cols="50"
+                            placeholder="Message..."></textarea>
                     </div>
 
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check this box if agree to being turned into
-                            a pumpkin.</label>
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">
+
+                            Check this box if agree to being turned into
+                            a pumpkin.
+
+                        </label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="p-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </form>
             </div>
             <!-- second col is some text with a line on the left of it -->
-            <div class="col-lg-6  d-none d-lg-block text-white text-center flex-column">
-                <h1>Pumpkins are the most interesting website idea.</h1>
-                <h4>And whenever you disagree, a pumpkin gets sad.</h4>
+            <div class="col-lg-6  d-none d-lg-block text-white flex-column my-auto">
+                <!-- TODO I need a left line by the text -->
+                <div class="put-a-left-line-here">
+                    <h1 class="my-text-shadow">Pumpkins are the most interesting website idea.</h1>
+                    <h4 class="my-text-shadow">And whenever you disagree, a pumpkin gets sad.</h4>
+                </div>
             </div>
         </div>
         <!-- 2nd Row is 2 columns, the one on the right is floating out of the bottom bounds -->
         <div class="row flex-column flex-md-row bg-primary">
-            <div class="col order-2 order.md-1 ">
-                <p>some random text</p>
+            <div class="col-md-4 order-2 order.md-1 p-md-5">
+                <h3 class="text-white">So you like pumpkins enough to sign up? <br>I'm really glad to
+                    hear it.</h3>
+                <p class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus<br>
+                    mollitia quis dicta vitae recusandae eaque adipisci debitis ipsa, perferendis officia libero
+                    reiciendis, inventore fugit ratione aliquam. Possimus, facere explicabo.</p>
             </div>
-            <div class="col order-1 order-md-2">
-                <p>I am a container with icons and text my order is first in mobile</p>
+            <div class="col-md-7 order-1 order-md-2 position-relative d-flex justify-content-center py-3">
+                <div class="bg-white my-pos-ab my-icon-box-pos py-3 px-4 my-box-shadow">
+
+
+                    <p><i class="fa fa-gift fa-2x fa-fw text-primary"></i> Give the gift of pumpkins!
+                        mobile<br><br></p>
+                    <p><i class="fa fa-gift fa-2x fa-fw text-primary"></i> It's always a good time to grab a
+                        pumpkin!<br><br></p>
+                    <p><i class="fa fa-gift fa-2x fa-fw text-primary"></i> I am a container with icons and text my order
+                        is first in
+                        mobile<br><br></p>
+                    <p><i class="fa fa-gift fa-2x fa-fw text-primary"></i> I am a container with icons and text my order
+                        is first in
+                        mobile<br><br></p>
+                    <p><i class="fa fa-gift fa-2x fa-fw text-primary"></i> I am a container with icons and text my order
+                        is first in
+                        mobile</p>
+
+                </div>
+
             </div>
         </div>
         <!-- 3rd row is 2 columns, with an image and some text and a button -->
