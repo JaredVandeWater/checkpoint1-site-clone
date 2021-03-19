@@ -1,0 +1,24 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+
+.bg-primary{
+    background-color: #07ab80 !important;
+}
+
+.my-bg-img{
+    background-image: url(/Assets/pumpkin_lg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    background-position: center;
+
+
+}
+
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
