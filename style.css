@@ -66,6 +66,8 @@ a{
 .my-padding2{
     padding: 4rem;
 }
+
+
 @media screen and (max-width: 1505px) {
 
 .my-icon-box-pos{
@@ -73,22 +75,17 @@ a{
 
 }
 }
-
 @media screen and (max-width: 1293px) {
 
 .my-icon-box-pos{
     bottom:auto;
 
+    
 }
 }
-
-@media screen and (max-width: 991px) {
-
-.my-icon-box-pos{
-    position:static;
+.my-pic-width{
+    max-width: 40%;
 }
-}
-
 @media screen and (max-width: 1104px) {
 
 .my-change-flex{
@@ -103,5 +100,21 @@ a{
 }
 .my-padding2{
     padding: .25rem;
+}
+}
+@media screen and (max-width: 991px) {
+
+.my-icon-box-pos{
+    position:static;
+}
+
+.my-pic-width{
+    max-width: 40%;
+}
+}
+@media screen and (max-width: 650px) {
+
+.my-pic-width{
+    max-width: 80%;
 }
 }
