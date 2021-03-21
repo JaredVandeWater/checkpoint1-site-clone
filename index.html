@@ -82,10 +82,11 @@
         </div>
         <!-- 2nd Row is 2 columns, the one on the right is floating out of the bottom bounds -->
         <div class="row flex-column flex-md-row bg-primary">
-            <div class="col-lg-4 order-2 order-lg-1 p-lg-5">
-                <h3 class="text-white">So you like pumpkins enough to sign up? <br>I'm really glad to
+            <div class="col-lg-5 order-2 order-lg-1 p-lg-5">
+                <h3 class="text-white p-4">So you like pumpkins enough to sign up? <br>I'm really glad to
                     hear it.</h3>
-                <p class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus<br>
+                <p class="text-white pb-4 px-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                    repellendus<br>
                     mollitia quis dicta vitae recusandae eaque adipisci debitis ipsa, perferendis officia libero
                     reiciendis, inventore fugit ratione aliquam. Possimus, facere explicabo.</p>
 
@@ -113,7 +114,7 @@
         <!-- 3rd row is 2 columns, with an image and some text and a button -->
         <div class="row justify-content-center">
             <div class="col-lg-4 p-lg-5 h-lg-50 w-lg-50 w-sm-50 h-sm-50  w-75 h-75 p-2">
-                <img class="" src="./Assets/spook.jpg" alt="" width="100%" height="auto">
+                <img class="rounded" src="./Assets/spook.jpg" alt="" width="100%" height="auto">
             </div>
             <div class=" col-lg-8 my-md-auto p-lg-5 p-3">
                 <h1 class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, dolorem?<br>Lorem
@@ -128,7 +129,7 @@
         <!-- 4th row is 3 columns with cards, and one card bigger -->
         <div class="row bg-light my-change-flex">
             <!-- card1 -->
-            <div class="col d-flex justify-content-center my-padding rounded">
+            <div class="col d-flex justify-content-center my-padding2 rounded">
                 <div class="card" style="width: 14rem;">
                     <div class="card-body text-center">
                         <h5 class="card-title text-center">"Pumpkins Rule"</h5>
@@ -141,8 +142,16 @@
             </div>
             <!-- card2 SHOWS FIRST IN MOBILE-->
             <div class="col d-flex justify-content-center my-padding my-order rounded">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body text-center">
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body text-center p-5">
+                        <div class="pb-3">
+                            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+                        </div>
+
                         <h5 class="card-title">"Pretty Neat!"</h5>
                         <h6 class="card-subtitle mb-2 text-muted">-Customer</h6>
                         <p class="card-text px-2">Wowee this guy gave our service 3 stars!</p>
@@ -152,7 +161,7 @@
                 </div>
             </div>
             <!-- card3 -->
-            <div class="col d-flex justify-content-center my-padding rounded">
+            <div class="col d-flex justify-content-center my-padding2 rounded">
                 <div class="card" style="width: 14rem;">
                     <div class="card-body text-center">
                         <h5 class="card-title">"Makes good soup!"</h5>
@@ -167,7 +176,7 @@
         <!-- 5th row just has some text -->
         <div class="row bg-primary">
             <div class="col p-5 text-white">
-                <h2>But seriously, Pumpkins, am I right?</h2>
+                <h2 class="pb-3">But seriously, Pumpkins, am I right?</h2>
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla repellat adipisci soluta dicta
                     voluptate?</h5>
             </div>
@@ -178,7 +187,14 @@
 <!-- finally the footer -->
 <footer>
     <div class="container-fluid">
-        <div class="row">more fun text</div>
+        <div class="row justify-content-center p-3">
+            <div class="col d-flex justify-content-center"><a href="">More Pumpkins</a></div>
+            <div class="col d-flex justify-content-center"><a href="">Halloween Ideas</a></div>
+            <div class="col d-flex justify-content-center"><a href="">Pumpkin Colors</a></div>
+            <div class="col d-flex justify-content-center"><a href="">Carving Opportunities</a></div>
+
+
+        </div>
     </div>
     </div>
 </footer>
