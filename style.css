@@ -43,6 +43,10 @@
     position: absolute;
 }
 
+.my-line{
+    border-left: #07ab80 solid 8px;
+}
+
 @media screen and (max-width: 1245px) {
 
 .my-icon-box-pos{
@@ -51,7 +55,7 @@
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
 .my-icon-box-pos{
     position:static;
