@@ -5,6 +5,18 @@ a{
     color:#07ab80 ;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.my-nav-border{
+    border: 0;
+    border-bottom: orange .5rem;
+    border-style: solid;
+
+}
+
+
 .my-custom-font{
     font-family: 'Kumar One', cursive
 }
@@ -57,7 +69,7 @@ a{
 }
 
 .my-line{
-    border-left: #07ab80 solid 15px;
+    border-left: rgb(197, 248, 255) solid 15px;
 }
 
 .my-padding{
@@ -67,6 +79,18 @@ a{
     padding: 4rem;
 }
 
+
+.my-rotate {
+  animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 @media screen and (max-width: 1505px) {
 
@@ -101,7 +125,15 @@ a{
 .my-padding2{
     padding: .25rem;
 }
+.my-padding3{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
+
+}
+
+
+
 @media screen and (max-width: 991px) {
 
 .my-icon-box-pos{
