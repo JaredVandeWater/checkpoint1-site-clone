@@ -5,6 +5,10 @@ a{
     color:#07ab80 ;
 }
 
+.my-custom-font{
+    font-family: 'Kumar One', cursive
+}
+
 .bg-primary{
     background-color: #07ab80 !important;
 }
